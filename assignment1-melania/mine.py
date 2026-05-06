@@ -9,7 +9,7 @@ FULL_ZERO_BYTES = DIFFICULTY // 8
 REMAINDER_BYTES = DIFFICULTY % 8 
 REMAINDER_MASK  = 0xFF << (8 - REMAINDER_BYTES) & 0xFF
 EMAIL = "m.d.vartic@student.tudelft.nl"
-GITHUB_URL = "https://github.com/melavart"
+GITHUB_URL = "https://github.com/melavart/blockchain-assignment1-melania-vartic"
 
 def check (digest: bytes ) -> bool:
     if digest[0] | digest[1] | digest[2]:
