@@ -28,9 +28,9 @@ def load_my_public_key(path):
 MY_PUBLIC_KEY = load_my_public_key("client.pem")
 
 GROUP_KEYS = [
-    bytes.fromhex("TEAMMATE1_PK"),
+    bytes.fromhex("307e301006072a8648ce3d020106052b81040024036a000401e737a5a04365fd1b1cec6221b054b07fc72935cc2faac0171105f18f393478112964c253a4183cb86c6ff6c238cffdda2b624c01426e994097830df4e3815e5cfdbb63062d8b16ffe224d7c406d02c606e5d00568cb8927704ba18897225723a43b85a56fe1765"),
     MY_PUBLIC_KEY,
-    bytes.fromhex("TEAMMATE3_PK"),
+    bytes.fromhex("4c69624e61434c504b3a33eebeffe4935cec64f15e232fa8c63fb9817633b4617c5a04a08b7e820efb329a9c379ff485ba5244b8f69e1c04900b27d915a0e6c1e54d7d7f301a208a9999"),
 ]
 
 class RegisterGroup(Payload):
